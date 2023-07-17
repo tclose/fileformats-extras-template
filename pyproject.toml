@@ -58,7 +58,7 @@ converters = [
 ]
 
 [project.urls]
-repository = "https://github.com/ArcanaFramework/fileformats-CHANGEME"
+repository = "https://github.com/ArcanaFramework/fileformats-CHANGEME-extras"
 
 [tool.hatch.version]
 source = "vcs"
