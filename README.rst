@@ -36,7 +36,7 @@ Quick Installation
 
 This extension can be installed for Python 3 using *pip*::
 
-    $ pip3 install fileformats-CHANGEME
+    $ pip3 install fileformats-CHANGEME-extras
 
 This will install the core package and any other dependencies
 
