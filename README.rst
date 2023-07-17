@@ -15,10 +15,10 @@ FileFormats-CHANGEME Extras
 How to customise this template
 ------------------------------
 
-1. Search and replace "CHANGEME" with the name of the fileformats subpackage the extras are to be added
-1. Implement selected "extras" by implementing functions decorated by one of the ``*_extra`` hooks defined in the target fileformats class
-1. Ensure that the decorated are imported into the extras package root, i.e. `fileformats/extra/CHANGEME`
-1. Delete these instructions
+#. Search and replace "CHANGEME" with the name of the fileformats subpackage the extras are to be added
+#. Implement selected "extras" by implementing functions decorated by one of the ``*_extra`` hooks defined in the target fileformats class
+#. Ensure that the decorated are imported into the extras package root, i.e. `fileformats/extra/CHANGEME`
+#. Delete these instructions
 
 
 ...
