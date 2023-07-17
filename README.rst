@@ -15,6 +15,7 @@ FileFormats-CHANGEME Extras
 How to customise this template
 ------------------------------
 
+#. Rename the `fileformats/extras/CHANGEME` directory to the name of the fileformats subpackage the extras are for
 #. Search and replace "CHANGEME" with the name of the fileformats subpackage the extras are to be added
 #. Implement selected "extras" by implementing functions decorated by one of the ``*_extra`` hooks defined in the target fileformats class
 #. Ensure that the decorated are imported into the extras package root, i.e. `fileformats/extra/CHANGEME`
