@@ -28,7 +28,7 @@ How to customise this template
 
 
 This is a extras module for the
-[fileformats-CHANGEME](https://github.com/ArcanaFramework/fileformats-CHANGEME) package, which provides
+`fileformats-CHANGEME <https://github.com/ArcanaFramework/fileformats-CHANGEME>`__ package, which provides
 additional functionality to format classes (i.e. aside from basic identification and validation), such as
 conversion tools, metadata parsers, test data generators, etc...
 
