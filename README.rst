@@ -1,3 +1,16 @@
+How to customise this template
+==============================
+
+#. Name your repository with the name fileformats-<SUBPACKAGE-TO-ADD-EXTRAS-TO>-extras
+#. Rename the `fileformats/extras/CHANGEME` directory to the name of the fileformats subpackage the extras are for
+#. Search and replace "CHANGEME" with the name of the fileformats subpackage the extras are to be added
+#. Replace name + email placeholders in `pyproject.toml` for developers and maintainers
+#. Implement selected "extras" by implementing functions decorated by one of the ``*_extra`` hooks defined in the target fileformats class
+#. Ensure that the decorated are imported into the extras package root, i.e. `fileformats/extra/CHANGEME`
+#. Delete these instructions
+
+...
+
 FileFormats-CHANGEME Extras
 ===========================
 .. image:: https://github.com/arcanaframework/fileformats-CHANGEME-extras/actions/workflows/tests.yml/badge.svg
@@ -10,21 +23,6 @@ FileFormats-CHANGEME Extras
 .. image:: https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat
     :target: https://arcanaframework.github.io/fileformats/
     :alt: Documentation Status
-
-
-How to customise this template
-------------------------------
-
-#. Name your repository with the name fileformats-<SUBPACKAGE-TO-ADD-EXTRAS-TO>-extras
-#. Rename the `fileformats/extras/CHANGEME` directory to the name of the fileformats subpackage the extras are for
-#. Search and replace "CHANGEME" with the name of the fileformats subpackage the extras are to be added
-#. Replace name + email placeholders in `pyproject.toml` for developers and maintainers
-#. Implement selected "extras" by implementing functions decorated by one of the ``*_extra`` hooks defined in the target fileformats class
-#. Ensure that the decorated are imported into the extras package root, i.e. `fileformats/extra/CHANGEME`
-#. Delete these instructions
-
-
-...
 
 
 This is a extras module for the
