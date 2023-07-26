@@ -13,10 +13,10 @@ dependencies = [
 ]
 license = {file = "LICENSE"}
 authors = [
-    {name = "Thomas G. Close", email = "tom.g.close@gmail.com"},
+    {name = "<YOUR-NAME>", email = "<YOUR-EMAIL>"},
 ]
 maintainers = [
-    {name = "Thomas G. Close", email = "tom.g.close@gmail.com"},
+    {name = "<YOUR-NAME>", email = "<YOUR-EMAIL>"},
 ]
 keywords = [
     "file formats",
@@ -30,7 +30,6 @@ classifiers = [
     "Operating System :: MacOS :: MacOS X",
     "Operating System :: Microsoft :: Windows",
     "Operating System :: POSIX :: Linux",
-    "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
